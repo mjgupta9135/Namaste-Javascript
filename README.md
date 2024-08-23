@@ -11,7 +11,7 @@ Welcome to the **Namaste JavaScript** course repository by Akshay Saini. This re
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/mj9135/namaste-javascript-course.git
+   git clone https://github.com/Mj9135/Namaste-Javascript.git
 2. **Navigate to  repository**:
    ```bash
    cd namaste-javascript-course
