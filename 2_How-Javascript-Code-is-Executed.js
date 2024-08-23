@@ -34,3 +34,19 @@ After return statement it will return square of 2 i.e 4 to variable square2 and 
 Now Again all things done for square4 function call similarly to above function call
 In Last after all code will be executed global execution context will be popped off or deleted.
 */
+
+/*
+JS manages so many things with the help of call stack.
+At the bottom of stack we have global execution context pushed into it ,as soon as program starts.
+During the function invokation when the execution context for the function is created, it is pushed into stack
+After function execution is over execution contex will be popped out from call stack.
+In above code first Global Execution context will pushed in stack then E1(For first function),after execution in completed then it E1 will be popped,
+Then again E2 (For second function) will be pushed and after execution it will be popped.
+Then in last  Global  Execution context will be popped out from stack.
+Thus how the code  is executed in JS with the help of call stack.
+*/
+
+/*
+Call Stack  is a region of memory where the JS engine stores the execution context of the current function.
+It is also known as Execution context stack,program stack,control stack,Runtime stack,Machine Stack
+*/
