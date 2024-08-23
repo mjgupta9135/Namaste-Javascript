@@ -25,5 +25,4 @@ Then at last  the console.log(x) is executed and the value 1 is printed
 Imp Point:- When we console.log(x) inside function a and b it will search local value of x not the global value
 In global memory  , the value of x is 1 but in local memory  of function a and b the value of x is 10 and 100 respectively
 
-
 */
