@@ -1,5 +1,5 @@
 /**
- * ! What is Block Scope?
+ * ! What is Block Scope?  h
  * * A Block is defined by  a pair of curly brackets `{}`. It is what all variables,functions,we can access inside a block.
  */
 {
