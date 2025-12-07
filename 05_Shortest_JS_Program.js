@@ -29,3 +29,10 @@ if we dont write anything before a then it will assume that a is in window objec
 */
 console.log(b);
 // In above case JS engine search for b in window object but b is not in window object so it will give refrence error b is not defines
+
+
+// 1. Jab hum kisi **object ki property access karte hain**, jaise `window.x`, to hum object ke andar value dhoond rahe hote hain.
+// 2. Agar wo property exist nahi karti, to JavaScript **error nahi deta**.
+// 3. Balki us case me hume **undefined** return hota hai.
+// 4. Error tab aata hai jab variable **kahin bhi declare hi nahi hota**, jaise `console.log(x)`.
+// 5. Isliye object property missing ho → **undefined**, variable missing ho → **ReferenceError**.
